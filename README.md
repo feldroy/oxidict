@@ -17,4 +17,6 @@ In the Python shell:
 >>> o.insert("key1", "value1")
 >>> print(o.get("key1"))
 value1
+>>> print(o)
+{"key1": "value1"}
 ```
