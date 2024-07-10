@@ -5,7 +5,7 @@ Rust's HashMap brought over to Python with PyO3.
 ```bash
 python3.12 -m venv .venv
 source .venv/bin/activate
-pip install -U pip maturin
+pip install -U pip maturin uv
 maturin develop
 ```
 
