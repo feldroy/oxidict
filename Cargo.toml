@@ -9,4 +9,10 @@ name = "oxidict"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.22.0"
+
+
+[dependencies.pyo3]
+version = "0.22.0"
+# "abi3-py310" tells pyo3 (and maturin) to build using the stable ABI with minimum Python version 3.10
+# ABI is the Application Binary Interface, which is the interface between the Rust code and the Python code.
+features = ["abi3-py310"]
